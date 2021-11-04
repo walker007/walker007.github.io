@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css"rel="stylesheet" type="text/css"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header-content">
+        <div class="header">
+            <div class="menu-container">
+                <div class="menu-wrapper">
+                    <input type="checkbox" id="toogle">
+                    <label for="toogle" class="menu-button">
+                        <div class="divider"></div>
+                        <div class="divider"></div>
+                        <div class="divider"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <div class="menu-itens">
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a onclick="document.getElementById('toogle').checked = false" href="index.html#projetos">Projetos</a></li>
+                            <li><a onclick="document.getElementById('toogle').checked = false" href="index.html#habilidades">Habilidades</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pic"></div>
+        <h1>Alex Júnior</h1>
+        <h2>Desenvolvedor</h2>
+        <div class="redes-sociais">
+            <a target="_blank" href="https://github.com/walker007">Github</a>
+        </div>
+        
+    </header>
+    <main class="container">
+        <div class="main-container">
+            <h2>Sobre</h2>
+        </div>
+       <div class="main-container">
+        <p>
+            Nascido em Goiás, sempre fui fascinado por tecnologia tendo iniciado por curiosidade em HTML aos 12 anos de idade
+            e aos 14 com PHP, tendo aprofundado nas tecnologias do PHP desde então, ainda aos 14 anos conheci o kernel linux,
+            suas distribuições e consequentemente o mundo open-source.
+        </p>
+        <p>
+            Trabalhei como Desenvolvedor Web em uma agencia local, onde conheci os frameworks laravel e codeigniter do php, e tive a oportunidade de me aprofundar no laravel e no PHP orientado a Objetos,
+            também pude conhecer sobre UX design e me aprofundar no assunto.
+        </p>
+        <p>
+            Tenho contribuído com projetos open-source como o <a target="_blank" href="https://github.com/manilarome/lightdm-webkit2-theme-glorious">Glorious</a>,
+            implementando suporte para pacotes de tradução para o programa, dentre outros projetos.
+        </p>
+        <p>
+            Atualmente Cursando o 3º período de Engenharia de Software, desenvolvo aplicações e softwares conforme as atividades
+            propostas que podem serem encontrados no github.
+        </p>
+       </div>
+    </main>
+    <footer class="footer">
+        Feito por: Alex Júnior
+    </footer>
+</body>
+</html>

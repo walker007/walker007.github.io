@@ -21,45 +21,107 @@
                     <div class="menu"></div>
                     <div class="menu-itens">
                         <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a onclick="document.getElementById('toogle').checked = false" href="index.html#projetos">Projetos</a></li>
+                            <li><a onclick="document.getElementById('toogle').checked = false" href="index.html#habilidades">Habilidades</a></li>
                             <li><a href="sobre.html">Sobre</a></li>
-                            
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="pic"></div>
         <h1>Alex Júnior</h1>
         <h2>Desenvolvedor</h2>
         <div class="redes-sociais">
             <a target="_blank" href="https://github.com/walker007">Github</a>
         </div>
+        
     </header>
     <main class="container">
-        <div class="card-container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <h2>Moovpro</h2>
-                    <p>acesso</p>
+        <section id="projetos">
+            <div class="main-container">
+                <h2>Projetos</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    
+                    <div class="card-wrapper moovpro">
+                        <h2>Moovpro</h2>
+                        <a href="https://app.moovpro.com.br" target="_blank"><p>Confira</p></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                   Sistema de gerenciamento voltado para arquitetos e engenheiros possui dentre outros recursos, gestão de obras onde é possível cadastrar relatório diário de obras e as despesas ou receitas de cada obra em individual, para maior controle financeiro.
                 </div>
             </div>
-            <div class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint maiores at facilis a laudantium deleniti nobis voluptate excepturi quidem? Earum dignissimos voluptatem quos quis, sapiente velit labore aliquam nesciunt voluptatum.
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <div class="card-wrapper">
-                    <h2>Jedi do Bim</h2>
-                    <p>acesso</p>
+           
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper jedi">
+                        <h2>Jedi do Bim</h2>
+                        <a href="http://jedidobim.com.br/" target="_blank"><p>Confira</p></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    Sistema onde é posível cadastrar perguntas, definindo pontuação a cada uma, e após as respostas os participantes são ranqueados entre semanal, bimestral, semestral e anual.
                 </div>
             </div>
-            <div class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint maiores at facilis a laudantium deleniti nobis voluptate excepturi quidem? Earum dignissimos voluptatem quos quis, sapiente velit labore aliquam nesciunt voluptatum.
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper sgn">
+                        <h2>SNTC</h2>
+                        <a href="#!" target="_blank"><p>Sistema Interno</p></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    Sistema de gerenciamento do Núcleo de Trabalho de Curso da Faculdade Fibra, onde o sistema gerencia frequencia de alunos e professores, e gera os relatórios e documentos do setor.
+                </div>
             </div>
-        </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper ouro_preto">
+                        <h2>Ouro Preto tur</h2>
+                        <p>Confira</p>
+                    </div>
+                </div>
+                <div class="card-text">
+                   Site estático de empresa de viação, com a implementação de um pequeno recurso de envio de um formulário para o email do administrador da empresa.
+                </div>
+            </div>
+        </section>
+        <section id="habilidades" style="margin-top: 25px;">
+            <div class="main-container">
+                <h2>Habilidades</h2>
+            </div>
+            <div class="skills-content">
+                <span class="badge">
+                    PHP
+                </span>
+                <span class="badge">
+                    Laravel
+                </span>
+                <span class="badge">
+                    HTML5
+                </span>
+                <span class="badge">
+                    CSS3
+                </span>
+                <span class="badge">
+                    Ux Design
+                </span>
+                <span class="badge">
+                    C++
+                </span>
+                <span class="badge">
+                    Qt
+                </span>
+            </div>
+        </section>
     </main>
+   
     <footer class="footer">
-        Feito por: Alex Júnior
+        Desenvolvido por Alex Júnior
     </footer>
 </body>
 </html>
