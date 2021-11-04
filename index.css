@@ -360,6 +360,7 @@ footer {
   border-radius: 5px;
   text-align: center;
   min-width: 50px;
+  margin-top: 5px;
 }
 
 .card-wrapper a {
