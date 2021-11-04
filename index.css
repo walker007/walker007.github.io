@@ -335,6 +335,12 @@ footer {
   padding: 5px;
   border-radius: 5px;
 }
+.card-wrapper a {
+  text-decoration: none;
+}
+.card-wrapper a:hover {
+  background-color: transparent;
+}
 
 @media (min-width: 300px) and (max-width: 996px) {
   .pic {
