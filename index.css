@@ -328,6 +328,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .badge {
   border: 1px solid #6272a4;
