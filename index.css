@@ -240,6 +240,7 @@ main {
   opacity: 0;
   display: block;
   border: 1px solid #44475a;
+  background-color: rgba(68, 71, 90, 0.7);
   transition: 0.5s ease-in-out;
 }
 
@@ -266,8 +267,8 @@ main {
 }
 
 .card:hover > .card-wrapper::before {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   opacity: 1;
 }
 
@@ -277,9 +278,15 @@ main {
   font-size: 14px;
 }
 
+.card-wrapper:hover h2,
+.card-wrapper:hover p {
+  color: #f8f8f2 !important;
+}
+
 .card-wrapper h2,
 .card-wrapper p {
   color: #44475a;
+  transition: 400ms ease-in-out 0.3s;
 }
 
 footer {
@@ -377,14 +384,17 @@ footer {
     min-height: 48vw;
     position: relative;
   }
+
   header {
     padding: 0 1rem;
   }
+
   .card-container {
     flex-direction: column;
     width: 100%;
     padding: 5px;
   }
+
   .card-text {
     width: 90%;
     margin-top: 5px;
@@ -392,5 +402,22 @@ footer {
 
   .main-container {
     padding: 0 1rem;
+  }
+
+  .card-wrapper::before {
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+  }
+
+  .card-wrapper h2,
+  .card-wrapper p {
+    color: #f8f8f2;
+  }
+
+  .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
   }
 }
