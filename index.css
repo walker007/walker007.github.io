@@ -1,14 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap");
 
+:root {
+  --branco: #f8f8f2;
+  --preto: #282a36;
+  --cinza: #44475a;
+  --azul: #6272a4;
+}
+
 * {
   padding: 0;
   margin: 0;
   font-family: "Fira Code", monospace;
-  color: #f8f8f2;
+  color: var(--branco);
 }
 
 body {
-  background-color: #282a36;
+  background-color: var(--preto);
 }
 
 header {
@@ -38,9 +45,9 @@ h2 {
 
 .redes-sociais a {
   text-decoration: none;
-  color: #f8f8f2;
+  color: var(--branco);
   padding: 1rem 4rem;
-  border: 1px solid #44475a;
+  border: 1px solid var(--cinza);
   min-width: 4rem;
   display: flex;
   align-items: center;
@@ -63,7 +70,7 @@ h2 {
 }
 
 a:hover {
-  background-color: #6272a4;
+  background-color: var(--azul);
 }
 
 .menu-container {
@@ -88,7 +95,7 @@ a:hover {
 .menu-button .divider {
   width: 30px;
   height: 2px;
-  background-color: #f8f8f2;
+  background-color: var(--branco);
   position: absolute;
   border-radius: 4px;
   transition: 0.5s ease-in-out;
@@ -119,7 +126,7 @@ a:hover {
   height: 4px;
   background-color: transparent;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 0px #44475a;
+  box-shadow: 0px 0px 0px 0px var(--cinza);
   position: fixed;
   z-index: -1;
   transition: 400ms ease-in-out 0s;
@@ -146,7 +153,7 @@ a:hover {
 
 .menu-itens ul li a {
   margin: 10px 0;
-  color: #f8f8f2;
+  color: var(--branco);
   text-decoration: none;
   letter-spacing: 4px;
   font-size: 40px;
@@ -171,11 +178,11 @@ a:hover {
 }
 
 #toogle:checked + .menu-button {
-  background-color: #44475a;
+  background-color: var(--cinza);
 }
 
 #toogle:checked ~ .menu {
-  box-shadow: 0px 0px 0px 100vmax #44475a;
+  box-shadow: 0px 0px 0px 100vmax var(--cinza);
   z-index: 1;
 }
 
@@ -215,7 +222,7 @@ main {
 
 .card-text {
   width: 40%;
-  /* color: #6272a4; */
+  /* color: var(--azul); */
   text-align: justify;
 }
 
@@ -239,7 +246,7 @@ main {
   border-radius: 50%;
   opacity: 0;
   display: block;
-  border: 1px solid #44475a;
+  border: 1px solid var(--cinza);
   background-color: rgba(68, 71, 90, 0.7);
   transition: 0.5s ease-in-out;
 }
@@ -280,12 +287,12 @@ main {
 
 .card-wrapper:hover h2,
 .card-wrapper:hover p {
-  color: #f8f8f2 !important;
+  color: var(--branco) !important;
 }
 
 .card-wrapper h2,
 .card-wrapper p {
-  color: #44475a;
+  color: var(--cinza);
   transition: 400ms ease-in-out 0.3s;
 }
 
@@ -295,7 +302,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #44475a;
+  background-color: var(--cinza);
 }
 
 .main-container {
@@ -345,8 +352,8 @@ footer {
   margin-top: 5px;
   width: 100%;
   height: 15px;
-  background-color: #f8f8f2;
-  border: 1px solid #44475a;
+  background-color: var(--branco);
+  border: 1px solid var(--cinza);
   position: relative;
 }
 
@@ -355,14 +362,14 @@ footer {
   display: block;
   font-family: arial;
   font-size: 12px;
-  background-color: #6272a4;
-  color: #44475a;
+  background-color: var(--azul);
+  color: var(--cinza);
   position: absolute;
   bottom: 0;
 }
 
 .badge {
-  border: 1px solid #6272a4;
+  border: 1px solid var(--azul);
   padding: 5px;
   border-radius: 5px;
   text-align: center;
@@ -412,7 +419,7 @@ footer {
 
   .card-wrapper h2,
   .card-wrapper p {
-    color: #f8f8f2;
+    color: var(--branco);
   }
 
   .card-wrapper p {
