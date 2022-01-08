@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <!-- <meta name="description" content="Alex Júnior, um desenvolvedor backe"> -->
     <meta property="og:image" content="imgs/profile.jpg" />
     <meta name="keywords" content="desenvolvedor,developer,webdeveloper,desenvolvedor web,programador">
-    <link href="index.css"rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
     <title>Portfolio</title>
 </head>
-<body>
+
+<body onload="main()">
     <header class="header-content">
         <div class="header">
             <div class="menu-container">
@@ -40,7 +42,7 @@
         <div class="redes-sociais">
             <a target="_blank" href="https://github.com/walker007">Github</a>
         </div>
-        
+
     </header>
     <main class="container">
         <section id="projetos">
@@ -50,25 +52,29 @@
             <div class="card-container">
                 <div class="card">
                     <a href="https://app.moovpro.com.br" target="_blank">
-                    <div class="card-wrapper moovpro">
-                        <h2>Moovpro</h2>
-                        <a href="https://app.moovpro.com.br" target="_blank"><p>Confira</p></a>
-                    </div>
+                        <div class="card-wrapper moovpro">
+                            <h2>Moovpro</h2>
+                            <a href="https://app.moovpro.com.br" target="_blank">
+                                <p>Confira</p>
+                            </a>
+                        </div>
                     </a>
                 </div>
                 <div class="card-text">
-                   Sistema de gerenciamento voltado para arquitetos e engenheiros possui dentre outros recursos, gestão de obras onde é possível cadastrar relatório diário de obras e as despesas ou receitas de cada obra em individual, para maior controle financeiro.
+                    Sistema de gerenciamento voltado para arquitetos e engenheiros possui dentre outros recursos, gestão de obras onde é possível cadastrar relatório diário de obras e as despesas ou receitas de cada obra em individual, para maior controle financeiro.
                 </div>
             </div>
-           
+
             <div class="card-container">
                 <div class="card">
                     <a href="http://jedidobim.com.br/" target="_blank">
-                    <div class="card-wrapper jedi">
-                        <h2>Jedi do Bim</h2>
-                        <a href="http://jedidobim.com.br/" target="_blank"><p>Confira</p></a>
-                    </div>
-                </a>
+                        <div class="card-wrapper jedi">
+                            <h2>Jedi do Bim</h2>
+                            <a href="http://jedidobim.com.br/" target="_blank">
+                                <p>Confira</p>
+                            </a>
+                        </div>
+                    </a>
                 </div>
                 <div class="card-text">
                     Sistema onde é posível cadastrar perguntas, definindo pontuação a cada uma, e após as respostas os participantes são ranqueados entre semanal, bimestral, semestral e anual.
@@ -79,7 +85,9 @@
                     <a>
                         <div class="card-wrapper sgn">
                             <h2>SNTC</h2>
-                            <a><p>Sistema Interno</p></a>
+                            <a>
+                                <p>Sistema Interno</p>
+                            </a>
                         </div>
                     </a>
                 </div>
@@ -89,15 +97,17 @@
             </div>
             <div class="card-container">
                 <div class="card">
-                   <a>
+                    <a>
                         <div class="card-wrapper ouro_preto">
                             <h2>Ouro Preto tur</h2>
-                            <a><p>Confira</p></a>
+                            <a>
+                                <p>Confira</p>
+                            </a>
                         </div>
-                   </a>
+                    </a>
                 </div>
                 <div class="card-text">
-                   Site estático de empresa de viação, com a implementação de um pequeno recurso de envio de um formulário para o email do administrador da empresa.
+                    Site estático de empresa de viação, com a implementação de um pequeno recurso de envio de um formulário para o email do administrador da empresa.
                 </div>
             </div>
         </section>
@@ -158,9 +168,11 @@
             </div>
         </section>
     </main>
-   
+
     <footer class="footer">
         Desenvolvido por Alex Júnior
     </footer>
+    <script src="index.js"></script>
 </body>
+
 </html>
